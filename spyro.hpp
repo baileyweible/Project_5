@@ -14,7 +14,7 @@ private:
 
 public:
 
-    Sypro(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t uid);
+    Spyro(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t uid);
 
     virtual void OutputStatus() const override;
     virtual void WeaponAttack(Entity * target) override;
