@@ -53,6 +53,7 @@
             "hp" : 8,
             "Name" : "Spyro",
             "race" : "Spyro",
+            "strength" : 17,
             "weapon_damage" : 5, 
             "inventory" : []
           }, 

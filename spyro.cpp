@@ -23,7 +23,7 @@ void Spyro::OutputStatus() const
 {
     std::cout << Class() << ": " << this->Name()
                 << "\n\tCurrent HP: " << this->CurrentHP()
-                << "\n\tIntelligence: " << this->GetIntelligence()
+                << "\n\tStrength: " << this->GetStrength()
                 << std::endl;
 
     PrintInventory();
