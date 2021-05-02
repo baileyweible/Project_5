@@ -35,8 +35,8 @@ endif
 
 
 
-Project04: game.o entityBuilder.o itemBuilder.o encounter.o warrior.o monster.o priest.o rogue.o mage.o entity.o inventory.o item.o
-	$(COMPILER) game.o entity.o encounter.o warrior.o monster.o mage.o rogue.o priest.o entityBuilder.o itemBuilder.o inventory.o item.o -o Project04
+Project04: game.o entityBuilder.o itemBuilder.o encounter.o warrior.o monster.o priest.o rogue.o mage.o entity.o inventory.o item.o spyro.o
+	$(COMPILER) game.o entity.o encounter.o warrior.o monster.o mage.o rogue.o priest.o entityBuilder.o itemBuilder.o inventory.o item.o spyro.o -o Project04
 
 
 game.o: main.cpp entity.hpp warrior.hpp mage.hpp rogue.hpp priest.hpp JsonEntityBuilder.hpp json.hpp
@@ -60,6 +60,9 @@ item.o: item.cpp item.hpp JsonItemBuilder.hpp
 
 entity.o: entity.cpp entity.hpp JsonEntityBuilder.hpp JsonItemBuilder.hpp json.hpp
 	$(COMPILER) -c -std=c++11 entity.cpp -o entity.o
+
+spyro.o: spyro.cpp spyro.hpp entity.hpp JsonEntityBuilder.hpp json.hpp
+	$(COMPILER) -c -std=c++11 spyro.cpp -o spyro.o
 
 warrior.o: warrior.cpp warrior.hpp entity.hpp JsonEntityBuilder.hpp json.hpp
 	$(COMPILER) -c -std=c++11 warrior.cpp -o warrior.o
