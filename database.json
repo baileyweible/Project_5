@@ -49,6 +49,15 @@
           "inventory" : []
         }, 
         {
+            "UID" : 30, 
+            "hp" : 8,
+            "Name" : "Spyro",
+            "race" : "Spyro",
+            "weapon_damage" : 5, 
+            "inventory" : []
+          }, 
+  
+        {
             "UID" : 4, 
             "hp" : 15,
             "Name" : "Jim the Strong",
