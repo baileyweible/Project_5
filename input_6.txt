@@ -13,7 +13,7 @@ s p s 30
 p a
 
 a 30 3 weapon_attack
-a 30 4 Headbutt
+a 30 2 Headbutt
 a 30 12 flameshoot
 
 p a 
